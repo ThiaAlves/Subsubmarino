@@ -1,0 +1,36 @@
+.badge-andrey {
+	background: #FF0;
+}
+
+.bg-login-image {
+	background: url(../images/login.png) center;
+}
+
+.parsley-errors-list {
+	color: #F00;
+	margin-left: -10px;
+}
+
+.card-body h3 {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+thead {
+	background: #F9f9f9;
+	font-weight: bold;
+}
+
+label {
+	margin-top: 10px;
+}
+
+iframe {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 20px 0;
+}
+
+form .btn-success {
+	margin-top: 20px;
+}

@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?param=$1
+php_value  upload_max_filesize  256M
